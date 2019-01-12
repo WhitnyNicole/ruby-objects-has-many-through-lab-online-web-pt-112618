@@ -1,4 +1,4 @@
-Class Genre
+class Genre
 
   attr_reader :name, :genre
   attr_accessor :song
@@ -7,7 +7,7 @@ Class Genre
     @name = name
   end
 
-  def songs
+  def song
     Song.all.select do |song|
       song.genre == self
     end
