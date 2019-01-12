@@ -1,4 +1,4 @@
-lass Genre
+Class Genre
 
   attr_reader :name, :genre
   attr_accessor :song
